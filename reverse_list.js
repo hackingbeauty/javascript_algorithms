@@ -1,4 +1,4 @@
-function reverseList(array){
+function reverseList(list){
 	var iteration = Math.floor(list.length/2)
 	var count = 0;
 		for(var i = 0;i<=iteration;i++){
@@ -11,3 +11,4 @@ function reverseList(array){
 	return list;
 }
 
+console.log(reverseList("mark"));
